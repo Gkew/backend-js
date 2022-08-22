@@ -1,4 +1,3 @@
-```js
 require('dotenv').config()
 const express = require('express')
 const healthcheck = require('healthcheck')
@@ -19,4 +18,3 @@ app.get("/", (req ,res) => {
 app.listen(PORT , ()=>{
    console.log(`STARTED LISTENING ON PORT ${PORT}`)
 });
-```
